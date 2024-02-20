@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Gmail">
             <Container maxWidth="1200px">
                 <Title>
-                    Gmail<Badge>2023</Badge>
+                    Gmail<Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
                     Gmail Clone
@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem> */}
                 </List>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/gmail.png" alt="Gmail Clone" />
                 </SimpleGrid>
             </Container>

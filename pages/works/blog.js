@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Blog">
             <Container maxWidth="1200px">
                 <Title>
-                    Blog Website <Badge>2023-24</Badge>
+                    Blog Website <Badge fontSize={20}>2023-24</Badge>
                 </Title>
                 <P>
                     Designed and developed a dynamic and responsive blog website, showcasing proficiency in full-stack web development. The project focuses on providing users with a seamless and interactive blogging experience. Key Features :- User Authentication, CRUD Operations, Responsive UI/UX, RESTful API, Frontend-Backend Interaction, Rich Editor and Deployment.
@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem> */}
                 </List>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/blog.png" alt="Blog Website" />
                 </SimpleGrid>
             </Container>

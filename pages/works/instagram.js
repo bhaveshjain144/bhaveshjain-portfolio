@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Instagram">
             <Container maxWidth="1200px">
                 <Title>
-                    Instagram <Badge>2023</Badge>
+                    Instagram <Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
                     Instagram Clone
@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem> */}
                 </List>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/insta.png" alt="Instagram" />
                 </SimpleGrid>
             </Container>
