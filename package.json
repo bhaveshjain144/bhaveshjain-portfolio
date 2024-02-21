@@ -1,10 +1,11 @@
 {
-  "name": "bhaveshjain144-homepage",
+  "name": "bhaveshjain",
   "version": "1.0.0",
   "description": "Bhavesh's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
