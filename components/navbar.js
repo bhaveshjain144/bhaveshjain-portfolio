@@ -123,13 +123,14 @@ const Navbar = props => {
                     <LinkItem href="/posts" path={path} _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }} borderRadius={'40px'}>
                         Posts
                     </LinkItem>
-                    <LinkItem
+                    {/* <LinkItem
                         target="_blank"
                         href="https://drive.google.com/file/d/1cVvC29cg71qnsg39p6BXwhi4NvacWPxS/view?usp=drive_link"
                         path={path}
                         _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }}
                         borderRadius={'40px'}
-                    >
+                    > */}
+                    <LinkItem href="/resume" path={path} _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }} borderRadius={'40px'}>
                         Resume
                     </LinkItem>
                     <LinkItem
