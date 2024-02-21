@@ -14,7 +14,7 @@ export const DogSpinner = () => (
 
 export const DogContainer = forwardRef(({ children }, ref) => (
   <Box
-    ref={ref}
+    ref={ref} // Forward the ref here
     className="voxel-dog"
     m="auto"
     mt={['-20px', '-60px', '-120px']}
@@ -26,6 +26,10 @@ export const DogContainer = forwardRef(({ children }, ref) => (
     {children}
   </Box>
 ))
+
+// Add display names to components
+DogSpinner.displayName = 'DogSpinner';
+DogContainer.displayName = 'DogContainer';
 
 const Loader = () => {
   return (
