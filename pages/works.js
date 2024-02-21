@@ -24,7 +24,7 @@ const Works = () => {
                     Works
                 </Heading>
 
-                <SimpleGrid columns={[1, 1, 1]} gap={6}>
+                <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
                         <WorkGridItem id="shopstore" title="ShopStore" thumbnail={thumbnailshopstore}>
                             An Inventory App - where you can find all the stock present in your store and manage them too.
