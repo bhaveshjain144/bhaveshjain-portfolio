@@ -1,6 +1,5 @@
 import Logo from "./logo.js"
 import NextLink from 'next/link'
-import NoSsr from "./no-ssr.js"
 import {
     Container,
     Box,
@@ -79,13 +78,6 @@ const Navbar = props => {
                     <LinkItem href="/posts" path={path} _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }} borderRadius={'40px'}>
                         Posts
                     </LinkItem>
-                    {/* <LinkItem
-                        target="_blank"
-                        href="https://drive.google.com/file/d/1cVvC29cg71qnsg39p6BXwhi4NvacWPxS/view?usp=drive_link"
-                        path={path}
-                        _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }}
-                        borderRadius={'40px'}
-                    > */}
                     <LinkItem href="/resume" path={path} _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }} borderRadius={'40px'}>
                         Resume
                     </LinkItem>
@@ -126,7 +118,7 @@ const Navbar = props => {
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
-                                <NextLink href="https://drive.google.com/file/d/1cVvC29cg71qnsg39p6BXwhi4NvacWPxS/view?usp=drive_link" passHref>
+                                <NextLink href="/resume" passHref>
                                     <MenuItem as={Link}>Resume</MenuItem>
                                 </NextLink>
                                 <MenuItem
