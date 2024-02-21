@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="ecom">
             <Container maxWidth="1200px">
                 <Title>
-                    E-Commerce Website <Badge>2024</Badge>
+                    E-Commerce Website <Badge fontSize={20}>2022</Badge>
                 </Title>
                 <P>
                     A Planning Poker is a gamified technique that follows Agile Methodology and SDLC which development teams uses to guess the effort of project management tasks. These estimations are based on the entire group's input and consensus, making them more engaging and accurate than other methods
@@ -34,7 +34,7 @@ const Work = () => {
                         <Link href="">aaaa</Link>
                     </ListItem> */}
                 </List>
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/planningpoker.png" alt="Planning Poker" />
                 </SimpleGrid>
             </Container>

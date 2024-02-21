@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="ShopStore">
             <Container maxWidth="1200px">
                 <Title>
-                    Shop Store <Badge>2023</Badge>
+                    Shop Store <Badge fontSize={20}>2024</Badge>
                 </Title>
                 <P>
                     Successfully created an Inventory Management App, which provides user-friendly interface and leading to a significant increase in user engagement by 20%.
@@ -37,7 +37,7 @@ const Work = () => {
                         <Link href="">aaaa</Link>
                     </ListItem> */}
                 </List>
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/shopstore.png" alt="Shop Store Screenshot" />
                 </SimpleGrid>
             </Container>

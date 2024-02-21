@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Whatsapp">
             <Container maxWidth="1200px">
                 <Title>
-                    Whatsapp<Badge>2023</Badge>
+                    Whatsapp<Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
                     Whatsapp Clone
@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem>
                 </List>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/whatsapp.png" alt="Whatsapp" />
                 </SimpleGrid>
             </Container>

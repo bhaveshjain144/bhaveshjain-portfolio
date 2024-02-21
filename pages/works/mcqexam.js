@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="MCQEXAM">
             <Container maxWidth="1200px">
                 <Title>
-                    Mcq Exam <Badge>2023</Badge>
+                    Mcq Exam <Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
                     An innovative online MCQ (Multiple Choice Question) exam platform. The platform's main objective is to enable teachers to create MCQ-based exams, while providing users with the opportunity to participate in these online exams in real-time.
@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem> */}
                 </List>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/mcqexam.png" alt="MCQEXAM" />
                 </SimpleGrid>
             </Container>

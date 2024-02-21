@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="Weather App">
             <Container maxWidth="1200px">
                 <Title>
-                    Weather App <Badge>2023</Badge>
+                    Weather App <Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
                     A simple Weather Application that displays the current weather based on geolocation or search. It pulls data from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide.
@@ -34,7 +34,7 @@ const Work = () => {
                         <Link href=""></Link>
                     </ListItem> */}
                 </List>
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/weather.png" alt="Weather App" />
                 </SimpleGrid>
             </Container>

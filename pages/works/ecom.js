@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="ecom">
             <Container maxWidth="1200px">
                 <Title>
-                    E-Commerce Website <Badge>2024</Badge>
+                    E-Commerce Website <Badge fontSize={20}>2024</Badge>
                 </Title>
                 <P>
                     Successfully replicated the core features of a renowned E-Commerce platform, showcasing proficiency in frontend and backend development.
@@ -38,7 +38,7 @@ const Work = () => {
                 </List>
 
 
-                <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <SimpleGrid columns={[1, 1, 1]} gap={6}>
                     <WorkImage src="/images/works/ecom.png" alt="E-Commerce Website" />
                     <WorkImage src="/images/works/ecomcart.png" alt="E-Commerce Website" />
                     <WorkImage src="/images/works/ecomlogin.png" alt="E-Commerce Website" />

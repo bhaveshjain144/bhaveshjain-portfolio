@@ -1,10 +1,11 @@
 {
-  "name": "bhaveshjain144-homepage",
+  "name": "bhaveshjain",
   "version": "1.0.0",
   "description": "Bhavesh's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
@@ -16,6 +17,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@react-pdf/renderer": "^3.3.8",
     "framer-motion": "^11.0.3",
     "next": "^14.1.0",
     "react": "^18.2.0",
