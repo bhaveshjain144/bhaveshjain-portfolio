@@ -43,7 +43,7 @@ img {
     transform: rotate(20deg);
 }
 `
-const LinkItem = ({ href, path, _target, children, ...props }) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
@@ -53,7 +53,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
                 p={2}
                 bg={active ? 'glassTeal' : undefined}
                 color={active ? '@202023' : inactiveColor}
-                _target={_target}
+                target={target}
                 {...props}
             >
                 {children}
@@ -124,7 +124,7 @@ const Navbar = props => {
                         Posts
                     </LinkItem>
                     <LinkItem
-                        _target="_blank"
+                        target="_blank"
                         href="https://drive.google.com/file/d/1cVvC29cg71qnsg39p6BXwhi4NvacWPxS/view?usp=drive_link"
                         path={path}
                         _hover={{ bg: useColorModeValue('teal', 'whiteAlpha.500') }}
@@ -133,7 +133,7 @@ const Navbar = props => {
                         Resume
                     </LinkItem>
                     <LinkItem
-                        _target="_blank"
+                        target="_blank"
                         href="https://github.com/bhaveshjain144/bhaveshjain-portfolio/"
                         path={path}
                         display="inline-flex"
