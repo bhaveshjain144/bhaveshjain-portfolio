@@ -1,9 +1,7 @@
-// import Logo from "./logo"
+import Logo from "./logo.js"
 import NextLink from 'next/link'
-// import noSsr from "./no-ssr.js"
-import Image from "next/image"
+import NoSsr from "./no-ssr.js"
 import {
-    Text,
     Container,
     Box,
     Link,
@@ -20,36 +18,13 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons"
 import ThemeToggleButton from "./theme-toggle-button.js"
 import { IoLogoGithub } from 'react-icons/io5'
-import logoImg from '../public/images/footprint1.png'
-import styled from '@emotion/styled'
 
-const LogoBox = styled.span`
-font-weight: bold;
-font-size: 18px;
-display: inline-flex;
-align-items: center;
-height: 30px;
-line-height: 20px;
-padding: 10px;
-
-img {
-    transform: rotate(-20deg);
-}
-> svg {
-    transition 200ms ease;
-}
-
-&:hover img {
-    transform: rotate(20deg);
-}
-`
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
         <NextLink href={href} passHref>
             <Link
-                // href={href}
                 p={2}
                 bg={active ? 'glassTeal' : undefined}
                 color={active ? '@202023' : inactiveColor}
@@ -86,26 +61,7 @@ const Navbar = props => {
             >
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-                        {/* <noSsr>
-                            <Logo />
-                        </noSsr> */}
-                        <NextLink href="/" scroll={false} passHref>
-                            <Link>
-                                <LogoBox>
-                                    <Image src={logoImg} width={45} height={45} alt="logo" />
-                                    <Text
-                                        mt={2}
-                                        fontSize={'25px'}
-                                        color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                                        fontFamily='M PLUS Rounded 1c", sans-serif'
-                                        fontWeight="bold"
-                                        ml={3}
-                                    >
-                                        Bhavesh Jain
-                                    </Text>
-                                </LogoBox>
-                            </Link>
-                        </NextLink>
+                        <Logo />
                     </Heading>
                 </Flex>
 
