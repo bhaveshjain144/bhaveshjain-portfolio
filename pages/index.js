@@ -29,7 +29,7 @@ import { SiLeetcode } from "react-icons/si";
 const Page = () => {
     return (
         <Layout>
-            <Container fontSize={"xl"}>
+            <Container >
                 {/* <Box
                     borderRadius="lg"
                     bg={useColorModeValue('#D3D3D3', '#D0D0D0 ')}

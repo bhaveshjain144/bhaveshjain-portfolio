@@ -21,7 +21,7 @@ img {
 `
 
 const Logo = () => {
-    const logoImg = `/images/footprint1${useColorModeValue('', '-dark')}.png`
+    const logoImg = `/images/footprint1.png`
 
     return (
         (<Link href="/" passHref>
