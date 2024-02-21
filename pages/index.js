@@ -202,22 +202,22 @@ const Page = () => {
                         bg={useColorModeValue('#FFEFD5', 'whiteAlpha.200')}
                     >
                         <Paragraph as="h2" >
-                            <Link href="https://leetcode.com/bhaveshjain14" color={useColorModeValue('teal', 'magenta')}>
+                            <Link href="https://leetcode.com/bhaveshjain14" color={useColorModeValue('teal', 'cyan')}>
                                 Coding |{' '}
                             </Link>
-                            <Link href="https://www.instagram.com/bhaveshjain_._" color={useColorModeValue('teal', 'magenta')}>
+                            <Link href="https://www.instagram.com/bhaveshjain_._" color={useColorModeValue('teal', 'cyan')}>
                                 Travelling |{' '}
                             </Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}>Trading |</Link>
-                            <Link href="https://www.instagram.com/bhaveshjain_._" color={useColorModeValue('teal', 'magenta')}>
+                            <Link color={useColorModeValue('teal', 'cyan')}>Trading |</Link>
+                            <Link href="https://www.instagram.com/bhaveshjain_._" color={useColorModeValue('teal', 'cyan')}>
                                 {' '}Blogging{' '}|
                             </Link>
-                            <Link href="https://www.instagram.com/_khuli_kitaab_" color={useColorModeValue('teal', 'magenta')}> Poetry |</Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}> Art |</Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}> Music |</Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}> Sports |</Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}> Dance |</Link>
-                            <Link color={useColorModeValue('teal', 'magenta')}> Acting</Link>
+                            <Link href="https://www.instagram.com/_khuli_kitaab_" color={useColorModeValue('teal', 'cyan')}> Poetry |</Link>
+                            <Link color={useColorModeValue('teal', 'cyan')}> Art |</Link>
+                            <Link color={useColorModeValue('teal', 'cyan')}> Music |</Link>
+                            <Link color={useColorModeValue('teal', 'cyan')}> Sports |</Link>
+                            <Link color={useColorModeValue('teal', 'cyan')}> Dance |</Link>
+                            <Link color={useColorModeValue('teal', 'cyan')}> Acting</Link>
                         </Paragraph>
                     </Box>
                 </Section>
