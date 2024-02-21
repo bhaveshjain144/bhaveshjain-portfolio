@@ -13,7 +13,7 @@ const Main = ({ children }) => {
         <Box as="main" pb={8} bg={useColorModeValue('#FFFFE0')} color={useColorModeValue('black', 'cyan')}>
             <Head>
                 <meta name="viewport" content="width =device-width, initial-scale=1" />
-                <title>Bhavesh Jain's Homepage</title>
+                <title>Bhavesh Jain&apos;s Homepage</title>
             </Head>
             <NoSsr>
                 <Navbar path={router.asPath} />

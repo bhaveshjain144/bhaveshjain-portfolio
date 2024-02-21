@@ -12,7 +12,7 @@ const Work = () => {
                     E-Commerce Website <Badge fontSize={20}>2022</Badge>
                 </Title>
                 <P>
-                    A Planning Poker is a gamified technique that follows Agile Methodology and SDLC which development teams uses to guess the effort of project management tasks. These estimations are based on the entire group's input and consensus, making them more engaging and accurate than other methods
+                    A Planning Poker is a gamified technique that follows Agile Methodology and SDLC which development teams uses to guess the effort of project management tasks. These estimations are based on the entire group&apos;s input and consensus, making them more engaging and accurate than other methods
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

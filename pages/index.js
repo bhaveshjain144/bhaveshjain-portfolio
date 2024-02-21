@@ -16,7 +16,7 @@ import Layout from '../components/layouts/article';
 import Paragraph from '../components/paragraph';
 import Section from '../components/section';
 import { BioSection, BioYear } from '../components/bio';
-import { GridItem } from '../components/grid-item';
+// import { GridItem } from '../components/grid-item';
 import {
     IoLogoTwitter,
     IoLogoInstagram,
@@ -78,11 +78,11 @@ const Page = () => {
                         bg={useColorModeValue('#FFEFD5', 'whiteAlpha.200')}
                     >
                         <Paragraph>
-                            Hello people, I am Bhavesh Jain. I'm 22 years old. I am a Full Stack Developer and a freelancer too
+                            Hello people, I am Bhavesh Jain. I&apos;m 22 years old. A Full Stack Developer and a freelancer too
                             with a passion and potential in building digital services. I have a
                             knack for recent technologies, from planning and designing all the way
                             to solving real-life problems with code. When not working on devlopment,
-                            I prefer developing and upgrading my lifestyle. I'm very much involed into fitness (body building and yoga). 
+                            I prefer developing and upgrading my lifestyle. I&apos;m very much involed into fitness (body building and yoga). 
                             Also, I love to play all sort of sports (chess, cricket, volleyball and etc...) and sometimes gets into trading.
                             Additionally my acting and dancing skills are very fine. I always thrive for challenges and have desire to learn.
                         </Paragraph>

@@ -1,4 +1,4 @@
-import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article";
@@ -42,7 +42,7 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem id="planningpoker" title="Planning Poker" thumbnail={thumbnailplanningpoker}>
-                        A Planning Poker is a meeting platform used for project management tasks. It's a gamified technique that follows Agile Methodology and SDLC concepts.
+                        A Planning Poker is a meeting platform used for project management tasks. It&apos;s a gamified technique that follows Agile Methodology and SDLC concepts.
                         </WorkGridItem>
                     </Section>
                     <Section>

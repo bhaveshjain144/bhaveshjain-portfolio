@@ -12,7 +12,7 @@ const Work = () => {
                     Mcq Exam <Badge fontSize={20}>2023</Badge>
                 </Title>
                 <P>
-                    An innovative online MCQ (Multiple Choice Question) exam platform. The platform's main objective is to enable teachers to create MCQ-based exams, while providing users with the opportunity to participate in these online exams in real-time.
+                    An innovative online MCQ (Multiple Choice Question) exam platform. The platform&apos;s main objective is to enable teachers to create MCQ-based exams, while providing users with the opportunity to participate in these online exams in real-time.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

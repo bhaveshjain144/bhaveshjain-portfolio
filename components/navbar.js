@@ -1,6 +1,6 @@
-import Logo from "./logo"
+// import Logo from "./logo"
 import NextLink from 'next/link'
-import noSsr from "./no-ssr.js"
+// import noSsr from "./no-ssr.js"
 import Image from "next/image"
 import {
     Text,
