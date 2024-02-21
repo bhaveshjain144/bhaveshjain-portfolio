@@ -1,7 +1,8 @@
-import Link from 'next/link'
-import { Text, Image, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import { NextLink, Link } from 'next/link'
+import Image from 'next/image'
+import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
+import FootprintIcon from './icons/footprint'
 
 const LogoBox = styled.span`
 font-weight: bold;
@@ -22,23 +23,24 @@ padding: 10px;
 `
 
 const Logo = () => {
-    // const logoImg = `/images/B${useColorModeValue('', '-dark')}.png`
-
+    const logoImg = `/images/footprint1${useColorModeValue('', '-dark')}.png`
     return (
-        <Link href="/" scroll={false} passHref>
-            <LogoBox>
-                {/* <Image src={logoImg} width={20} height={9} alt="logo" /> */}
-                <FootprintIcon width={45} height={35} color={useColorModeValue("gray.600", "white")} />
-                <Text
-                    color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                    fontFamily='M PLUS Rounded 1c", sans-serif'
-                    fontWeight="bold"
-                    ml={3}
+        <NextLink href="/" passHref>
+            <Link>
+                <LogoBox>
+                    <Image src={logoImg} width={40} height={40} alt="logo" />
+                    {/* <FootprintIcon width={45} height={35} color={useColorModeValue("gray.600", "white")} /> */}
+                    <Text
+                        color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+                        fontFamily='M PLUS Rounded 1c", sans-serif'
+                        fontWeight="bold"
+                        ml={3}
                     >
-                    Bhavesh Jain
-                </Text>
-            </LogoBox>
-        </Link>
+                        Bhavesh Jain
+                    </Text>
+                </LogoBox>
+            </Link>
+        </NextLink>
     )
 }
 

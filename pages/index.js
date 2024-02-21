@@ -229,42 +229,42 @@ const Page = () => {
                     <List>
                         <ListItem>
                             <Link href="https://www.linkedin.com/in/bhaveshjain14/" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoLinkedin} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoLinkedin} />} fontSize={'20px'}>
                                     @bhaveshjain14
                                 </Button>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Link href="https://github.com/bhaveshjain144/" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoGithub} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoGithub} />} fontSize={'20px'}>
                                     @bhaveshjain144
                                 </Button>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Link href="https://www.instagram.com/bhaveshjain_._/" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoInstagram} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoInstagram} />} fontSize={'20px'}>
                                     @bhaveshjain_._
                                 </Button>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Link href="https://twitter.com/bhaveshbj14" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoTwitter} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoTwitter} />} fontSize={'20px'}>
                                     @bhaveshbj14
                                 </Button>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Link href="https://leetcode.com/bhaveshjain14/" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={SiLeetcode} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={SiLeetcode} />} fontSize={'20px'}>
                                     @bhaveshjain14
                                 </Button>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Link href="https://vercel.com/new/bhavesh-jains-projects-898cdc08" target="_blank">
-                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoVercel} />}>
+                                <Button variant="ghost" colorScheme='teal' leftIcon={<Icon as={IoLogoVercel} />} fontSize={'20px'}>
                                     @bhaveshjain144
                                 </Button>
                             </Link>

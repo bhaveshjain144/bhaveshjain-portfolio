@@ -13,14 +13,15 @@ const Main = ({ children }) => {
         <Box as="main" pb={8} bg={useColorModeValue('#FFFFE0')} color={useColorModeValue('black', 'cyan')}>
             <Head>
                 <meta name="viewport" content="width =device-width, initial-scale=1" />
-                    <title>Bhavesh Jain's Homepage</title>
+                <title>Bhavesh Jain's Homepage</title>
             </Head>
-
-            <Navbar path={router.asPath} />
+            <NoSsr>
+                <Navbar path={router.asPath} />
+            </NoSsr>
             <Container maxW="container.md" pt={14}>
-                {/* <NoSsr>
-                </NoSsr> */}
-                <VoxelDog />
+                <NoSsr>
+                    <VoxelDog />
+                </NoSsr>
                 {children}
                 <Footer />
             </Container>
