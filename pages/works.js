@@ -3,17 +3,24 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article";
 
-import thumbnailshopstore from '../public/images/works/shopstore.png';
-import thumbnailmcqexam from '../public/images/works/mcqexam.png';
-import thumbnailecom from '../public/images/works/ecom.png';
-import thumbnailplanningpoker from '../public/images/works/planningpoker.png';
-import thumbnailinsta from '../public/images/works/insta.png';
-import thumbnailgmail from '../public/images/works/gmail.png';
-import thumbnailblog from '../public/images/works/blog.png';
-import thumbnailchess from '../public/images/works/chess.png';
-import thumbnailweather from '../public/images/works/weather.png';
-// import thumbnailtictactoe from '../public/images/works/tictactoe.png';
-// import thumbnailtictactoe from '../public/images/works/rockpaperscissor.png';
+import thumbnailshopstore from '../public/images/works/shopstore.png'
+import thumbnailmcqexam from '../public/images/works/mcqexam.png'
+import thumbnailblog from '../public/images/works/blog.png'
+import thumbnailecom from '../public/images/works/ecom.png'
+import thumbnailplanningpoker from '../public/images/works/planningpoker.png'
+import thumbnailinsta from '../public/images/works/insta.png'
+import thumbnailgmail from '../public/images/works/gmail.png'
+import thumbnailchess from '../public/images/works/chess.png'
+import thumbnailweather from '../public/images/works/weather.png'
+// import thumbnailshopstore from '../public/images/works/shopstore.png';
+// import thumbnailmcqexam from '../public/images/works/mcqexam.png';
+// import thumbnailecom from '../public/images/works/ecom.png';
+// import thumbnailplanningpoker from '../public/images/works/planningpoker.png';
+// import thumbnailinsta from '../public/images/works/insta.png';
+// import thumbnailgmail from '../public/images/works/gmail.png';
+// import thumbnailblog from '../public/images/works/blog.png';
+// import thumbnailchess from '../public/images/works/chess.png';
+// import thumbnailweather from '../public/images/works/weather.png';
 
 
 const Works = () => {
