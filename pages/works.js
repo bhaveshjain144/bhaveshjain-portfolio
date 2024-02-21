@@ -3,24 +3,24 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article";
 
-import thumbnailshopstore from '../public/images/works/shopstore.jpg'
-import thumbnailmcqexam from '../public/images/works/mcqexam.jpg'
-import thumbnailblog from '../public/images/works/blog.jpg'
-import thumbnailecom from '../public/images/works/ecom.jpg'
-import thumbnailplanningpoker from '../public/images/works/planningpoker.jpg'
-import thumbnailinsta from '../public/images/works/insta.jpg'
-import thumbnailgmail from '../public/images/works/gmail.jpg'
-import thumbnailchess from '../public/images/works/chess.jpg'
-import thumbnailweather from '../public/images/works/weather.jpg'
-// import thumbnailshopstore from '../public/images/works/shopstore.png';
-// import thumbnailmcqexam from '../public/images/works/mcqexam.png';
-// import thumbnailecom from '../public/images/works/ecom.png';
-// import thumbnailplanningpoker from '../public/images/works/planningpoker.png';
-// import thumbnailinsta from '../public/images/works/insta.png';
-// import thumbnailgmail from '../public/images/works/gmail.png';
-// import thumbnailblog from '../public/images/works/blog.png';
-// import thumbnailchess from '../public/images/works/chess.png';
-// import thumbnailweather from '../public/images/works/weather.png';
+// import thumbnailshopstore from '../public/images/works/shopstore.jpg'
+// import thumbnailmcqexam from '../public/images/works/mcqexam.jpg'
+// import thumbnailblog from '../public/images/works/blog.jpg'
+// import thumbnailecom from '../public/images/works/ecom.jpg'
+// import thumbnailplanningpoker from '../public/images/works/planningpoker.jpg'
+// import thumbnailinsta from '../public/images/works/insta.jpg'
+// import thumbnailgmail from '../public/images/works/gmail.jpg'
+// import thumbnailchess from '../public/images/works/chess.jpg'
+// import thumbnailweather from '../public/images/works/weather.jpg'
+import thumbnailshopstore from '../public/images/works/shopstore.png';
+import thumbnailmcqexam from '../public/images/works/mcqexam.png';
+import thumbnailecom from '../public/images/works/ecom.png';
+import thumbnailplanningpoker from '../public/images/works/planningpoker.png';
+import thumbnailinsta from '../public/images/works/insta.png';
+import thumbnailgmail from '../public/images/works/gmail.png';
+import thumbnailblog from '../public/images/works/blog.png';
+import thumbnailchess from '../public/images/works/chess.png';
+import thumbnailweather from '../public/images/works/weather.png';
 
 
 const Works = () => {
