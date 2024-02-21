@@ -169,7 +169,7 @@ const Navbar = props => {
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
-                                <NextLink href="/resume" passHref>
+                                <NextLink href="https://drive.google.com/file/d/1cVvC29cg71qnsg39p6BXwhi4NvacWPxS/view?usp=drive_link" passHref>
                                     <MenuItem as={Link}>Resume</MenuItem>
                                 </NextLink>
                                 <MenuItem
