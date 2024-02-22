@@ -17,8 +17,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://chess-io.vercel.app/">
-                            https://chess-io.vercel.app/ <ExternalLinkIcon mx="2px" />
+                        <Link href="https://github.com/bhaveshjain144/Chess.io/">
+                        https://github.com/bhaveshjain144/Chess.io/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

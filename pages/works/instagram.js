@@ -17,8 +17,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://instagram-clone-six-chi.vercel.app/">
-                            https://instagram-clone-six-chi.vercel.app/ <ExternalLinkIcon mx="2px" />
+                        <Link href="https://github.com/bhaveshjain144/instagram-clone/">
+                        https://github.com/bhaveshjain144/instagram-clone/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

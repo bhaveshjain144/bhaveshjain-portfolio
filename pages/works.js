@@ -21,6 +21,8 @@ import thumbnailgmail from '../public/images/works/gmail.png';
 import thumbnailblog from '../public/images/works/blog.png';
 import thumbnailchess from '../public/images/works/chess.png';
 import thumbnailweather from '../public/images/works/weather.png';
+import thumbnailcalculator1 from '../public/images/works/calc1.png';
+import thumbnailcalculator2 from '../public/images/works/calc2.png';
 
 
 const Works = () => {
@@ -92,6 +94,16 @@ const Works = () => {
                             Whatsapp Clone App
                         </WorkGridItem>
                     </Section> */}
+                    <Section>
+                        <WorkGridItem id="calculator1" title="Calculator1" thumbnail={thumbnailcalculator1}>
+                            Calculator
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="calculator2" title="Calculator2" thumbnail={thumbnailcalculator2}>
+                            Calculator
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
             </Container>
         </Layout>
