@@ -95,12 +95,12 @@ const Works = () => {
                         </WorkGridItem>
                     </Section> */}
                     <Section>
-                        <WorkGridItem id="calculator1" title="Calculator1" thumbnail={thumbnailcalculator1}>
+                        <WorkGridItem id="calculator2" title="Calculator2" thumbnail={thumbnailcalculator2}>
                             Calculator
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="calculator2" title="Calculator2" thumbnail={thumbnailcalculator2}>
+                        <WorkGridItem id="calculator1" title="Calculator1" thumbnail={thumbnailcalculator1}>
                             Calculator
                         </WorkGridItem>
                     </Section>
