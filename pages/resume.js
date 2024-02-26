@@ -19,5 +19,5 @@ const Resume = () => {
         </Layout>
     )
 }
-
+ 
 export default Resume
