@@ -23,6 +23,7 @@ import thumbnailchess from '../public/images/works/chess.png';
 import thumbnailweather from '../public/images/works/weather.png';
 import thumbnailcalculator1 from '../public/images/works/calc1.png';
 import thumbnailcalculator2 from '../public/images/works/calc2.png';
+import thumbnailfileshare from '../public/images/works/fileshare.png';
 
 
 const Works = () => {
@@ -67,6 +68,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem id="chess" title="Chess" thumbnail={thumbnailchess}>
                             A two player chess game with updated moves and patterns.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="fileshare" title="File Share" thumbnail={thumbnailfileshare}>
+                            A simple file sharer site.
                         </WorkGridItem>
                     </Section>
                     {/* <Section>
